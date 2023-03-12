@@ -16,7 +16,7 @@ module.exports = {
     'import/no-cycle': 'off',
     'no-bitwise': 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-console': ['error', { allow: ['error'] }],
+    'no-console': 'off',
     'no-param-reassign': [
       'error',
       {

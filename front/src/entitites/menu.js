@@ -1,5 +1,9 @@
 export default () => [
   {
+    to: '/',
+    name: 'Главная',
+  },
+  {
     to: '/cart',
     name: 'Корзина',
   },

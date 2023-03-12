@@ -1,0 +1,22 @@
+@mixin scrollbars($size)
+  // For Google Chrome
+  &::-webkit-scrollbar
+    width:  $size
+    height: $size
+
+  &::-webkit-scrollbar-thumb
+    border-radius: 10px
+    background: rgba(#0032A0, 0.16)
+    &:hover
+      background: #B5C3DB
+    &:active
+      background: #A7B5CE
+
+  &::-webkit-scrollbar-track
+    border-radius: 10px
+    background: #EFF3FA
+
+  // For Internet Explorer
+  &
+    scrollbar-face-color: #A7B5CE !important
+    scrollbar-track-color: #EFF3FA !important

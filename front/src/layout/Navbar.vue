@@ -1,6 +1,8 @@
 <template>
   <v-app-bar
     app
+    flat
+    elevation="4"
   >
     <v-container class="py-2 fill-height">
       <v-router-link
